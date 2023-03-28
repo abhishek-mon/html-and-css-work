@@ -1,0 +1,151 @@
+/* navbar */
+#navbar{
+    border-bottom: 0.1rem solid slategrey;
+}
+.uni-img {
+    width: 75px;
+    height: 80px;
+    margin: 0.5rem 0.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 0.2rem solid #f3e5ab;
+}
+
+.bg-color {
+    background: rgb(63,237,251);
+    background: radial-gradient(circle, rgba(63,237,251,1) 0%, rgba(75,56,187,1) 82%);
+    padding: 0;
+    
+}
+
+.nav-item {
+    margin-right: 16px;  
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    margin-left: 16px;
+    font-family:'Dancing Script', cursive;
+    font-weight: 700 bold;
+    color:#f3e5ab;
+}
+
+/* course */
+#course{
+    border-top: 0.1rem solid slategrey ;
+    border-bottom: 0.1rem solid slategrey;
+}
+
+.card {
+    margin: 2rem 3rem;
+    width: 19rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    background: rgb(0,43,91);
+    background: linear-gradient(342deg, rgba(0,43,91,1) 32%, rgba(20,108,148,1) 54%, rgba(164,147,96,1) 76%);
+}
+
+.card-heading{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    color: #F2DEBA;
+}
+.card-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #301E67;
+}
+
+@media (min-width:1900px) and (max-width:2560px) {
+    .card {
+       width: 25rem;
+       margin: 3rem 6rem;
+    }
+}
+
+/* about */
+#about{
+    border-bottom: 0.1rem solid slategrey;
+}
+.about-body{
+    background: rgb(228,220,207);
+    background: linear-gradient(342deg, rgba(228,220,207,1) 23%, rgba(20,108,148,1) 59%, rgba(25,167,206,1) 87%);
+}
+.about-body-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #f3e5ab;
+}
+
+.uni-dean {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border: 0.2rem solid white;
+}
+
+.about-container-heading{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    color: #F9DBBB;
+}
+
+.about-container-para {
+    font-family:'Dancing Script', cursive;
+    font-weight: 700 bold;
+    color: #222222;
+}
+
+@media  (min-width:1900px) and (max-width:2560px) {
+    .uni-dean {
+        width:220px;
+        height: 220px;
+    }
+
+    .about-container-para{
+        font-size: 150%;
+    }
+
+    .about-container-heading {
+        font-size: 180%;
+    }
+}
+
+/* footer */
+.footer-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color:#f3e5ab ;
+}
+
+.footer-link{
+    margin: 0.5rem 0.5rem;
+    color: #ECF2FF;
+}
+
+.footer-para{
+    margin-top: 0.5rem;
+    color: #ffff;
+}
+
+.footer-body{
+    background: rgb(0,43,91);
+    background: radial-gradient(circle, rgba(0,43,91,1) 2%, rgba(20,108,148,1) 79%);
+}
+
+@media  (min-width:1900px) and (max-width:2560px) {
+    .footer-link {
+        size: 160%;
+    }
+}
+

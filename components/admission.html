@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- font-style -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@1,300;1,800&display=swap" rel="stylesheet">
+ <!-- colse font-style -->
+     <!-- Css -->
+     <link
+       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+       rel="stylesheet"
+       integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp"
+       crossorigin="anonymous"
+     />
+     <link href="../styles/admission.css" rel="stylesheet" />
+     <!-- close css -->
+     <!-- font-awesome -->
+     <script src="https://kit.fontawesome.com/8dd95dffcc.js" crossorigin="anonymous"></script>
+    <title>For Admission</title>
+</head>
+<body>
+<!-- navbar -->
+
+<section id="navbar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-color">
+      <div class="container-fluid text-center">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.SjSRRM_SbFzj1jPsHzuHdgHaHa%26pid%3DApi&f=1&ipt=0ef4b7ac7cf8046e1bc2bd505ff61e2f9b0df7bc0423f12fa53dfab722d45986&ipo=images" alt="Bootstrap" class="uni-img">
+        <a class="navbar-brand uni-name" href="index.html">Nalanda University</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-style row" id="navbarSupportedContent">
+          <div class="navbar-main col-lg-6 ">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./admission.html">Admission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </div>
+          <div class="navbar-signup col-lg-6">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active" href="./signup.html">SignUp</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./login.html">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    </section>
+
+<!-- close navbar -->
+<!-- admission form -->
+<div class="from">
+<section class="admission">
+    <form class="row g-3">
+        <div class="col-md-6 Name">
+            <label for="inputFirstName" class="form-label ">*First Name</label>
+            <input type="text" class="form-control" id="inputFirstName"  required>
+          </div>
+          <div class="col-md-6 Name">
+            <label for="inputLastName" class="form-label">*Last Name</label>
+            <input type="text" class="form-control" id="inputLastName" required>
+          </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">*Email</label>
+          <input type="email" class="form-control" id="inputEmail4"  required>
+        </div>
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">*Phone No</label>
+            <input type="number" class="form-control" id="inputPhoneNo" required>
+          </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">*Password</label>
+          <input type="password" class="form-control" id="inputPassword4" required>
+        </div>
+        <div class="col-6">
+            <label for="inputPassword4" class="form-label">*Conform Password</label>
+            <input type="password" class="form-control" id="inputAddress" required>
+          </div>
+          
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">*Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">*City</label>
+          <input type="text" class="form-control" id="inputCity" required>
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">*State</label>
+          <select id="inputState" class="form-select" required>
+            <option selected>Choose...</option>
+            <option>India</option>
+            <option>Out Side India...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">*Zip</label>
+          <input type="text" class="form-control" id="inputZip" required>
+        </div>
+        <div class="col-12">
+            <label for="inputState" class="form-label">*Subject</label>
+            <select id="inputState" class="form-select" required>
+              <option selected>Choose...</option>
+              <option>Business Studies</option>
+              <option>Chemistry</option>
+              <option>Computer Science</option>
+              <option>Mathametics</option>
+              <option>Political Science</option>
+              <option>Physices</option>
+            </select>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+            <label class="form-check-label" for="gridCheck" >
+              Above all details are  correct.
+            </label>
+          </div>
+        </div>
+        <div class="col-12 button">
+          <button type="submit" class="btn btn-outline-light">Submit</button>
+        </div>
+      </form>
+</section>
+</div>
+
+<!-- close admission from -->
+<!-- footer -->
+<section>
+    <footer id="contact">
+      <div class="row text-center footer-body">
+        <div class="col-12">
+          <h3 class="footer-heading">Contact Us</h3>
+        </div>
+        <div class="col-12">
+          <a class="footer-link" href="https://facebook.com">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a class="footer-link" href="mailto:m.bluth@example.com">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a class="footer-link" href="https://linkin.com">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a class="footer-link" href="tel:+123456789">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+        </div>
+        <div class="col-12">
+          <p class="about-container-para footer-para">© 2023 Abhishek</p>
+        </div>
+      </div>
+    </footer>
+  </section>
+    <!-- close footer -->
+<!-- close footer -->
+ <!-- script -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"
+  ></script>
+  <!-- close script -->
+    
+</body>
+</html>

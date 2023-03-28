@@ -1,0 +1,156 @@
+
+/* navbar */
+#navbar{
+    border-bottom: 0.1rem solid slategrey;
+}
+.uni-img {
+    width: 75px;
+    height: 80px;
+    margin: 0.5rem 0.5rem;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 0.2rem solid #f3e5ab;
+}
+
+
+.bg-color {
+    background: rgb(63,237,251);
+    background: radial-gradient(circle, rgba(63,237,251,1) 0%, rgba(75,56,187,1) 82%);
+    padding: 0;
+    
+}
+
+.nav-item {
+    margin-right: 16px;  
+}
+
+.nav-link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    margin-left: 16px;
+    font-family:'Dancing Script', cursive;
+    font-weight: 600 bold;
+    color:#f3e5ab;
+}
+
+/* signup */
+.card{
+    width: 35rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #C9EEFF;
+    border-radius: 5%;
+}
+.card-img-top {
+    border-radius: 6%;
+    
+}
+
+body{
+    background: rgb(228,220,207);
+    background: linear-gradient(342deg, rgba(228,220,207,1) 23%, rgba(20,108,148,1) 59%, rgba(25,167,206,1) 87%);
+}
+
+.form-label {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #00235B;
+}
+.form-control {
+    margin-bottom: 1rem;
+    border-radius: 10%;
+    border: 0.1rem solid #62CDFF;
+}
+.form-select {
+    margin-bottom: 1rem;
+    border-radius: 10%;
+    border: 0.1rem solid #62CDFF;
+}
+
+.icon {
+    color: #146C94;
+}
+
+.form-check-label {
+    font-family:'Dancing Script', cursive;
+    font-weight: 700 bold;
+}
+
+.btn {
+    color: #00235B;
+}
+
+@media (min-width:1900px) and (max-width:2900px) {
+
+    .card{
+        width: 100vh;
+        height: 100vh;
+        margin-top: 5rem;
+        margin-bottom: 30rem;
+       
+    }
+  
+    .form-control {
+        margin-bottom: 2rem;
+    }
+
+    .form-select {
+        margin: 2rem;
+    }
+    .btn {
+        size: 150%;
+    }
+    .form-label {
+        font-weight: 900;
+    }
+
+    .icon {
+        size: 3rem;
+    }
+}
+
+@media screen and (max-width:1900px) {
+    .card{
+        width: 100vh;
+        height: 100vh;
+        margin-top: 5rem;
+        margin-bottom: 20rem;
+    }
+}
+
+/* footer */
+.footer-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color:#f3e5ab ;
+}
+
+.footer-link{
+    margin: 0.5rem 0.5rem;
+    color: #ECF2FF;
+}
+
+.footer-para{
+    margin-top: 0.5rem;
+    color: #ffff;
+}
+.about-container-para {
+    font-family:'Dancing Script', cursive;
+    font-weight: 700 bold;
+    color: #fff;
+}
+
+.footer-body{
+    background: rgb(0,43,91);
+    background: radial-gradient(circle, rgba(0,43,91,1) 2%, rgba(20,108,148,1) 79%);
+}
+
+@media  (min-width:1900px) and (max-width:2560px) {
+    .footer-link {
+        size: 160%;
+    }
+}
+
